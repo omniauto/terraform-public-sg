@@ -7,6 +7,6 @@ variable "region" {
 variable "aws_security_group" {
   type = string
   description = "AWS Security Group"
-  default = "omni-security-group"
+  default = "default"
 }
 
